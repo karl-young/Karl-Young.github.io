@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(246, 213, 172);
+  background-image: url(Images/—Pngtree—abstract\ with\ hexagons\ pattern_5355401.png);
+  background-size: 100%;
+}
+#headbox {
+  font-family: 'Eb Garamond', 'Raleway', 'sans-serif';
+  font-size: 20px;
+  text-align: center;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: rgb(189, 145, 86);
+  opacity: 0.9;
+}
+.header {
+  padding: 10px;
+}
+#Wbox {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  width: 40%;
+  background-color: rgb(189, 145, 86);
+  opacity: 0.9;
+  border-radius: 40px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+.blog-links {
+  align-content: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 40px;
+  opacity: 0.9;
+}
+#css-con {
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(189, 145, 86);
+}
+#plan {
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(189, 145, 86);
+}
+#Te {
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(189, 145, 86);
+}
+#Tblog {
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(189, 145, 86);
+}
+#Fbox {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  width: 20%;
+  border: 5px solid rgb(189, 145, 86);
+  border-radius: 50px;
+}
+#intro {
+  font-family: 'Josefin Slab', serif;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: rgb(189, 145, 86);
+  opacity: 0.8;
+  border-radius: 40px;
+  padding: 20px;
+}
+.span {
+}

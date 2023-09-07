@@ -43,24 +43,32 @@ body {
   opacity: 0.9;
 }
 #css-con {
+  text-decoration: none;
+  color: black;
   text-align: center;
   padding: 30px;
   border-radius: 20px;
   background-color: rgb(189, 145, 86);
 }
 #plan {
+  text-decoration: none;
+  color: black;
   text-align: center;
   padding: 30px;
   border-radius: 20px;
   background-color: rgb(189, 145, 86);
 }
 #Te {
+  text-decoration: none;
+  color: black;
   text-align: center;
   padding: 30px;
   border-radius: 20px;
   background-color: rgb(189, 145, 86);
 }
 #Tblog {
+  text-decoration: none;
+  color: black;
   text-align: center;
   padding: 30px;
   border-radius: 20px;

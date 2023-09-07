@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Css Id vs Class</title>
+    <box class="Wbox" width="200px">
+      <h1>Css Id vs Class</h1>
+    </box>
+  </head>
+  <body>
+    <p class="intro">
+      When designing a web page, you may have various elements that require
+      different styles. For example, you might want a group of paragraphs to
+      feature large text, buttons to display medium-sized white text, and
+      paragraphs to showcase small yellow text. Thankfully, CSS classes come to
+      the rescue, allowing you to apply unique style properties to specific
+      groups of HTML elements and achieve your desired web page appearance.
+    </p>
+
+    <p class="intro">
+      Class selectors prove invaluable when you need to style multiple elements
+      with similar characteristics. In your CSS file, you can then create a
+      section dedicated to that class, where you can specify properties like
+      font-family, font size, or text color to achieve consistent styling across
+      all elements belonging to that class.<br />
+      <br />
+      For Example:
+    </p>
+    <section class="codeimg">
+      <img src="../styles/Images/css-images/Classtext.png" alt="Classhtml" />
+      <img src="../styles/Images/css-images/text.png" alt="textcss" />
+    </section>
+
+    <p class="intro">
+      While a web page can contain multiple elements, each of these elements can
+      be distinguished by a unique identifier called an 'ID.' It's important to
+      note that each element is allowed to have only one ID, and within a given
+      page, there should be only one element with that specific ID. This
+      practice ensures the precise identification of elements and is a
+      fundamental principle in web development for styling with CSS<br />
+      <br />
+      For Example:
+    </p>
+    <section class="codeimg">
+      <img src="../styles/Images/css-images/Id.png" alt="Id" />
+      <img src="../styles/Images/css-images/head.png" alt="Headers" />
+    </section>
+    <section class="sidebox">
+      <ul class="box1 Wbox">
+        <p>Classes are most commonly used for:</p>
+        <li>Paragraphs</li>
+        <li>Buttons</li>
+        <li>Links</li>
+      </ul>
+      <ul class="box2 Wbox">
+        <p>Id's are most commonly used for:</p>
+        <li>Headers</li>
+        <li>Footers</li>
+        <li>Menus</li>
+      </ul>
+    </section>
+    <div>
+      <p class="intro">
+        You can also employ them in combination. For instance, if you wish to
+        utilize a common class for background color or style for your header
+        while ensuring it differs from the class applied to other elements.
+      </p>
+    </div>
+    <section class="codeimg">
+      <img src="..//styles/Images/css-images/Class-and-id.png" alt="bothhtml" />
+      <img src="../styles/Images/css-images/bothcss.png" alt="css" />
+    </section>
+    <p class="intro">
+      A metaphor that can be employed is the process of attending school and
+      obtaining a student ID. Just as there can only be one unique student ID
+      per person, you'd ideally like to attend multiple classes. Hence you can
+      onl;y have one Id but many classes.
+    </p>
+  </body>
+</html>

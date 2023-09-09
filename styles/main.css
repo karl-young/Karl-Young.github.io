@@ -13,6 +13,10 @@ body {
   opacity: 0.9;
 }
 .header {
+  text-align: center;
+  border-radius: 40px;
+  background-color: rgb(189, 145, 86);
+  opacity: 0.9;
   font-size: 40px;
   padding: 20px;
 }
@@ -38,7 +42,7 @@ body {
   margin-bottom: 60px;
   margin-left: 40px;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 250px 250px 250px 250px;
   column-gap: 40px;
   opacity: 0.9;
 }
@@ -66,7 +70,7 @@ body {
   border-radius: 20px;
   background-color: rgb(189, 145, 86);
 }
-#Tblog {
+#identity {
   text-decoration: none;
   color: black;
   text-align: center;
@@ -83,13 +87,14 @@ body {
   border-radius: 50px;
 }
 .intro {
+  list-style-position: inside;
   font-family: 'Josefin Slab', serif;
   margin-top: 30px;
   text-align: center;
   font-weight: bold;
   font-size: x-large;
   background-color: rgb(189, 145, 86);
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 40px;
   padding: 20px;
 }
@@ -101,7 +106,7 @@ body {
   text-align: center;
   width: 300px;
   background-color: rgb(189, 145, 86);
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 40px;
   padding: 20px;
 }
@@ -110,7 +115,7 @@ body {
   text-align: center;
   width: 300px;
   background-color: rgb(189, 145, 86);
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 40px;
   padding: 20px;
 }

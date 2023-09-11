@@ -37,7 +37,6 @@ body {
 .blog-links {
   align-content: center;
   justify-content: center;
-
   margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -46,12 +45,21 @@ body {
   opacity: 0.9;
 }
 .sprints {
-  text-decoration: none;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
   color: black;
   text-align: center;
   padding: 30px;
   border-radius: 20px;
   background-color: rgb(189, 145, 86);
+}
+.links {
+  text-decoration: none;
+  line-height: 15pt;
+  display: block;
+  margin: 10px;
+  color: black;
 }
 #Fbox {
   margin: auto;

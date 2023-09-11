@@ -37,40 +37,15 @@ body {
 .blog-links {
   align-content: center;
   justify-content: center;
-  height: 40px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 40px;
+
+  margin: auto;
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
-  column-gap: 40px;
+  grid-template-columns: auto auto auto;
+  grid-row: inherit;
+  gap: 40px;
   opacity: 0.9;
 }
-#css-con {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  padding: 30px;
-  border-radius: 20px;
-  background-color: rgb(189, 145, 86);
-}
-#plan {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  padding: 30px;
-  border-radius: 20px;
-  background-color: rgb(189, 145, 86);
-}
-#Te {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  padding: 30px;
-  border-radius: 20px;
-  background-color: rgb(189, 145, 86);
-}
-#identity {
+.sprints {
   text-decoration: none;
   color: black;
   text-align: center;

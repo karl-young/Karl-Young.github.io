@@ -74,8 +74,8 @@ body {
   font-family: 'Josefin Slab', serif;
   margin-top: 30px;
   text-align: center;
-  font-weight: bold;
-  font-size: x-large;
+  font-weight: 500;
+  font-size: large;
   background-color: rgb(189, 145, 86);
   opacity: 0.9;
   border-radius: 40px;
@@ -93,21 +93,12 @@ body {
   border-radius: 40px;
   padding: 20px;
 }
-.box2 {
-  list-style-position: inside;
-  text-align: center;
-  width: 300px;
-  background-color: rgb(189, 145, 86);
-  opacity: 0.9;
-  border-radius: 40px;
-  padding: 20px;
-}
 .sidebox {
   align-content: center;
   justify-content: center;
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-left: 40px;
+  margin-left: auto;
   display: grid;
   grid-template-columns: 350px 350px;
   column-gap: 40px;
@@ -122,4 +113,10 @@ body {
   display: grid;
   grid-template-columns: 350px;
   gap: 20px;
+}
+
+.rightimg {
+  margin-left: auto;
+  width: 200px;
+  height: auto;
 }

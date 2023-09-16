@@ -100,7 +100,7 @@ body {
   margin-bottom: 60px;
   margin-left: auto;
   display: grid;
-  grid-template-columns: 350px 350px;
+  grid-template-columns: 500px 500px;
   column-gap: 40px;
   opacity: 0.9;
 }
@@ -111,12 +111,19 @@ body {
   margin-bottom: 60px;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 350px;
+  grid-template-columns: auto;
   gap: 20px;
 }
 
-.rightimg {
-  margin-left: auto;
-  width: 200px;
+.imgsize {
+  max-width: 80%;
   height: auto;
+  width: auto;
+}
+
+.rightimg {
+  align-items: center;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  width: auto;
 }

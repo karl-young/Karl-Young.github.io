@@ -117,4 +117,5 @@ body {
 .imgsize {
   max-width: 80%;
   height: auto;
+  width: auto;
 }

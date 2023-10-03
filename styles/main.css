@@ -86,7 +86,7 @@ span {
 .box1 {
   list-style-position: inside;
   text-align: center;
-  width: 300px;
+  width: auto;
   background-color: rgb(189, 145, 86);
   opacity: 0.9;
   border-radius: 40px;
@@ -99,8 +99,8 @@ span {
   margin-bottom: 60px;
   margin-left: auto;
   display: grid;
-  grid-template-columns: 500px 500px;
-  column-gap: 40px;
+  grid-template-columns: auto auto;
+  column-gap: 60px;
   opacity: 0.9;
 }
 .codeimg {
